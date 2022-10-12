@@ -1,0 +1,14 @@
+.\game.o: game.c
+.\game.o: game.h
+.\game.o: GLCD_TP/GLCD.h
+.\game.o: C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h
+.\game.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\game.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\game.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\game.o: C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\game.o: timer/timer.h
+.\game.o: RIT/RIT.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\game.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

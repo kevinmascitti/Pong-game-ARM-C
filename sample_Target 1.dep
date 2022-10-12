@@ -1,0 +1,145 @@
+Dependencies for Project 'sample', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_LPC17xx.s)(0x4CCAADFA)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 536"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
+F (.\sample.c)(0x61D430C8)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\sample.o --omf_browse .\sample.crf --depend .\sample.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602585E4)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.H)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (button_EXINT/button.h)(0x61D17717)
+I (timer/timer.h)(0x61D2292A)
+I (RIT/RIT.h)(0x5C18CD48)
+I (adc/adc.h)(0x61CECBCF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (GLCD_TP/GLCD.h)(0x61E88129)
+I (game.h)(0x61E9F9F6)
+F (.\core_cm3.c)(0x4AC99CCC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+F (.\system_LPC17xx.c)(0x54242018)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+F (.\button_EXINT\button.h)(0x61D17717)()
+F (.\button_EXINT\IRQ_button.c)(0x61D2D536)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\irq_button.o --omf_browse .\irq_button.crf --depend .\irq_button.d)
+I (button_EXINT\button.h)(0x61D17717)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (button_EXINT\../RIT/RIT.h)(0x5C18CD48)
+F (.\button_EXINT\lib_button.c)(0x61D2D65E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\lib_button.o --omf_browse .\lib_button.crf --depend .\lib_button.d)
+I (button_EXINT\button.h)(0x61D17717)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+F (.\timer\IRQ_timer.c)(0x61E9EF33)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\irq_timer.o --omf_browse .\irq_timer.crf --depend .\irq_timer.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (timer\timer.h)(0x61D2292A)
+I (timer\../game.h)(0x61E9F9F6)
+I (timer\../GLCD_TP/GLCD.h)(0x61E88129)
+I (timer\../RIT/RIT.h)(0x5C18CD48)
+I (timer\../ADC/ADC.h)(0x61CECBCF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\timer\lib_timer.c)(0x61D2CBC5)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\lib_timer.o --omf_browse .\lib_timer.crf --depend .\lib_timer.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (timer\timer.h)(0x61D2292A)
+F (.\timer\timer.h)(0x61D2292A)()
+F (.\RIT\IRQ_RIT.c)(0x61D57A2F)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\irq_rit.o --omf_browse .\irq_rit.crf --depend .\irq_rit.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (RIT\RIT.h)(0x5C18CD48)
+I (RIT\../timer/timer.h)(0x61D2292A)
+I (RIT\../adc/adc.h)(0x61CECBCF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (RIT\../game.h)(0x61E9F9F6)
+I (RIT\../GLCD_TP/GLCD.h)(0x61E88129)
+F (.\RIT\lib_RIT.c)(0x5C1ABDCE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\lib_rit.o --omf_browse .\lib_rit.crf --depend .\lib_rit.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (RIT\RIT.h)(0x5C18CD48)
+F (.\RIT\RIT.h)(0x5C18CD48)()
+F (.\adc\adc.h)(0x61CECBCF)()
+F (.\adc\IRQ_adc.c)(0x61E9B46A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\irq_adc.o --omf_browse .\irq_adc.crf --depend .\irq_adc.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (adc\adc.h)(0x61CECBCF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+I (adc\../game.h)(0x61E9F9F6)
+I (adc\../GLCD_TP/GLCD.h)(0x61E88129)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602585E4)
+F (.\adc\lib_adc.c)(0x61C9F047)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\lib_adc.o --omf_browse .\lib_adc.crf --depend .\lib_adc.d)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\lpc17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (adc\adc.h)(0x61CECBCF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\GLCD_TP\AsciiLib.c)(0x4CEFD636)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\asciilib.o --omf_browse .\asciilib.crf --depend .\asciilib.d)
+I (GLCD_TP\AsciiLib.h)(0x4CEFD66E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\GLCD_TP\AsciiLib.h)(0x4CEFD66E)()
+F (.\GLCD_TP\GLCD.c)(0x61E8812C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\glcd.o --omf_browse .\glcd.crf --depend .\glcd.d)
+I (GLCD_TP\GLCD.h)(0x61E88129)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (GLCD_TP\AsciiLib.h)(0x4CEFD66E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\GLCD_TP\GLCD.h)(0x61E88129)()
+F (.\GLCD_TP\HzLib.c)(0x4CF0BAD2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\hzlib.o --omf_browse .\hzlib.crf --depend .\hzlib.d)
+I (GLCD_TP\HzLib.h)(0x4CEFFEC6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
+F (.\GLCD_TP\HzLib.h)(0x4CEFFEC6)()
+F (.\game.h)(0x61E9F9F6)()
+F (.\game.c)(0x61E9F9F9)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="536"-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (game.h)(0x61E9F9F6)
+I (GLCD_TP/GLCD.h)(0x61E88129)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D4422)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D4E0A)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703BE82)
+I (timer/timer.h)(0x61D2292A)
+I (RIT/RIT.h)(0x5C18CD48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602585E4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602585E4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x602585EE)
